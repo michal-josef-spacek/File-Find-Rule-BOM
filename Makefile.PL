@@ -17,7 +17,7 @@ license 'bsd';
 name 'File-Find-Rule-BOM';
 readme_from 'BOM.pm';
 recursive_author_tests('xt');
-requires 'Dicom::File::Detect' => 0.01;
+requires 'String::BOM' => 0;
 requires 'File::Find::Rule' => 0;
 requires 'perl' => '5.6.2';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
