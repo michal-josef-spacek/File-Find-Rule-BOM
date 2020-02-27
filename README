@@ -131,7 +131,7 @@ EXAMPLE4
      # Usage: qr{[\w\/]+} dir
 
 DEPENDENCIES
-    String::BOM, File::Find::Rule.
+    File::Find::Rule, String::BOM.
 
 SEE ALSO
     File::Find::Rule

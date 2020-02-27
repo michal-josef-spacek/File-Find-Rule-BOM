@@ -200,8 +200,8 @@ The C<bom_utf32()> rule detect files with UTF-32 BOM.
 
 =head1 DEPENDENCIES
 
-L<String::BOM>,
-L<File::Find::Rule>.
+L<File::Find::Rule>,
+L<String::BOM>.
 
 =head1 SEE ALSO
 
