@@ -11,7 +11,7 @@ use Test::More 'tests' => 2;
 my $data_dir = File::Object->new->up->dir('data')->set;
 
 # Test.
-my @ret = File::Find::Rule->bom->relative->in($data_dir->s);
+my @ret = sort { $a cmp $b } File::Find::Rule->bom->relative->in($data_dir->s);
 is_deeply(
 	\@ret,
 	[
