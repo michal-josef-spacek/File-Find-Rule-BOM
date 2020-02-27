@@ -6,7 +6,7 @@ use warnings;
 
 use String::BOM qw(file_has_bom);
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Detect BOM.
 sub File::Find::Rule::bom {
@@ -231,6 +231,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
