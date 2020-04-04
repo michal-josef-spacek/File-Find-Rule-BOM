@@ -135,7 +135,7 @@ DEPENDENCIES
 
 SEE ALSO
     File::Find::Rule
-        Alternative interface to File::Find
+        Alternative interface to File::Find.
 
 REPOSITORY
     <https://github.com/michal-josef-spacek/File-Find-Rule-BOM>

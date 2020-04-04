@@ -209,7 +209,7 @@ L<String::BOM>.
 
 =item L<File::Find::Rule>
 
-Alternative interface to File::Find
+Alternative interface to File::Find.
 
 =back
 
